@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+body {
+  background-color: lightgray;
+  font-family: "Roboto", sans-serif;
+}
+h1,
+h3,
+p {
+  text-align: center;
+}
+
+#scatterplot-stats {
+  text-align: center;
+}
+
+.axis {
+  fill: none;
+  stroke: #3a3a3a;
+}
+
+.axis text {
+  fill: #000;
+  stroke: none;
+}
+
+circle {
+  stroke: #3a3a3a;
+}
+
+.cyclist circle:hover {
+  cursor: pointer;
+}
+
+.tooltip {
+  position: absolute;
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: #000;
+  color: #fff;
+}

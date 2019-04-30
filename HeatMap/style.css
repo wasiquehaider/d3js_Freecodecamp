@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+body {
+  background-color: lightgray;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+h1,
+h3,
+p {
+  text-align: center;
+}
+
+.graph {
+  margin: 0 auto;
+  background-color: white;
+}
+
+.tooltip {
+  background-color: lightsalmon;
+  border: 1px solid black;
+  width: 100px;
+  opacity: 0;
+  color: black;
+  position: absolute;
+}
